@@ -8,7 +8,7 @@ const Story: React.FC = () => {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-700 transform rotate-1 hover:rotate-0 transition-transform duration-500 bg-slate-800/50 aspect-[4/5] flex items-center justify-center p-8">
               <img 
-                src="/assets/hyloria.png" 
+                src="/hyloria.png" 
                 alt="Hyloria Shield Logo" 
                 className="w-full h-full object-contain drop-shadow-[0_0_25px_rgba(16,185,129,0.4)]"
               />
