@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-5 w-full max-w-4xl mx-auto mb-8">
           {/* Discord Button */}
           <a 
-            href="https://discord.gg/4SjqTDAQ" 
+            href="https://discord.com/invite/PRwGcBSYmF" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-full md:flex-1"

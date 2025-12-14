@@ -28,7 +28,7 @@ const Story: React.FC = () => {
             
             <div className="pt-4">
               <a 
-                href="https://discord.gg/4SjqTDAQ" 
+                href="https://discord.com/invite/PRwGcBSYmF" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-emerald-400 font-bold uppercase tracking-widest text-sm hover:text-emerald-300 transition-colors flex items-center gap-2 group"
