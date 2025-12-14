@@ -65,32 +65,33 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Buttons Row */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-5 w-full max-w-4xl mx-auto mb-8">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-xl mx-auto mb-8">
           {/* Discord Button */}
           <a 
             href="https://discord.com/invite/PRwGcBSYmF" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="w-full md:flex-1"
+            className="w-full sm:w-auto"
           >
-            <button className="group w-full bg-[#5865F2] hover:bg-[#4752C4] text-white font-bold py-5 px-10 rounded-xl flex items-center justify-center gap-4 transition-all duration-300 shadow-xl shadow-[#5865F2]/30 hover:shadow-[#5865F2]/50 hover:scale-105">
-              <MessageCircle className="w-7 h-7" />
-              <span className="text-lg tracking-wide">Join Discord</span>
+            <button className="group w-full bg-gradient-to-r from-[#7289DA] to-[#5865F2] hover:from-[#5865F2] hover:to-[#4752C4] text-white font-semibold py-3 px-7 rounded-lg flex items-center justify-center gap-2.5 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
+              <MessageCircle className="w-5 h-5" />
+              <span className="text-base">Join Discord</span>
             </button>
           </a>
 
           {/* Story Button */}
           <button 
             onClick={() => setShowStory(!showStory)}
-            className="w-full md:flex-1 bg-amber-600 hover:bg-amber-500 text-white font-bold py-5 px-10 rounded-xl flex items-center justify-center gap-4 transition-all duration-300 shadow-xl shadow-amber-900/30 hover:shadow-amber-900/50 hover:scale-105"
+            className="w-full sm:w-auto bg-transparent border-2 border-slate-700 hover:border-slate-600 hover:bg-slate-800/30 text-slate-200 font-semibold py-3 px-7 rounded-lg flex items-center justify-center gap-2.5 transition-all duration-300"
           >
-            <BookOpen className="w-7 h-7" />
-            <span className="text-lg tracking-wide">{showStory ? 'Hide' : 'Our'} Story</span>
+            <span className="text-base">{showStory ? 'Hide Info' : 'Learn More'}</span>
           </button>
+        </div>
 
-          {/* Store Button */}
-          <button className="w-full md:flex-1 bg-slate-800 border-2 border-slate-700 text-slate-400 font-bold py-5 px-10 rounded-xl cursor-not-allowed flex items-center justify-center gap-4 opacity-50">
-            <span className="text-lg tracking-wide">Store - Coming Soon</span>
+        {/* Store Button - Separate and Smaller */}
+        <div className="w-full max-w-xs mx-auto mb-8">
+          <button className="w-full bg-slate-800/40 border border-slate-700/50 text-slate-500 font-medium py-2.5 px-6 rounded-lg cursor-not-allowed text-sm opacity-60">
+            Store Coming Soon
           </button>
         </div>
 
