@@ -18,12 +18,12 @@ const Story: React.FC = () => {
           
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-amber-50 leading-tight">
-              About <span className="text-emerald-500">Hyloria</span>
+              What is <span className="text-emerald-500">Hyloria</span>?
             </h2>
             <div className="w-20 h-1 bg-amber-500 rounded-full"></div>
             
             <p className="text-lg text-slate-300 leading-relaxed font-light">
-              We have embarked on a journey to be one of the first Hytale servers and provide players with a fabulous experience with multi-genre games and survival elements mixed with them.
+              Hyloria is a fun server for Hytale! Play mini-games, survive with friends, and have a great time. We're making it awesome for everyone!
             </p>
             
             <div className="pt-4">
@@ -33,7 +33,7 @@ const Story: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-emerald-400 font-bold uppercase tracking-widest text-sm hover:text-emerald-300 transition-colors flex items-center gap-2 group"
               >
-                Join our Journey
+                Join Us!
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </a>
             </div>

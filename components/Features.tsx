@@ -5,13 +5,13 @@ const Features: React.FC = () => {
   const features = [
     {
       icon: <Sword className="w-8 h-8 text-amber-400" />,
-      title: "Minigames",
-      desc: "Experience thrilling minigames designed for fun and competition."
+      title: "Fun Games",
+      desc: "Play exciting mini-games with your friends!"
     },
     {
       icon: <Map className="w-8 h-8 text-emerald-400" />,
-      title: "Survival and more coming soon",
-      desc: "Explore survival gameplay with exciting new features on the horizon."
+      title: "Survival Mode",
+      desc: "Build, explore, and survive together. More cool stuff coming soon!"
     }
   ];
 
